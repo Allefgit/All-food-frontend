@@ -8,7 +8,7 @@ import { DishCard } from "../../components/DishCard"
 import { Button } from "../../components/Button";
 
 import pix from '../../assets/pix.svg'
-import credit from '../../assets/creditCard.svg'
+import credit from '../../assets/CreditCard.svg'
 import qrCode from '../../assets/qrCode.svg'
 import { useState, useEffect } from "react"
 
