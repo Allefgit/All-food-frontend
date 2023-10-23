@@ -31,7 +31,7 @@ export function Dish(){
             const dishData = await api.get(`/dishes/${params.id}`)
             setDish(dishData.data)
 
-            const imgFile = `${api.defaults.baseURL}/files/${dishData.data.img}`
+            const imgFile = `${api.defaults.baseURL}files/${dishData.data.img}`
             setImg(imgFile)
 
             const tagData = await api.get(`/tags/${params.id}`)
