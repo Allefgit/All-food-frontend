@@ -39,7 +39,7 @@ export function Card({id, img, name, price, desc, isFavorite}){
 
     const { user } = useAuth()
     const navigate = useNavigate()
-    const imgUrl = `${api.defaults.baseURL}/files/${img}`  
+    const imgUrl = `${api.defaults.baseURL}files/${img}`  
 
     return(
         <Container>
