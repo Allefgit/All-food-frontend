@@ -88,7 +88,7 @@ export function Home(){
                     </div>
                 </LogoBanner>
 
-                <Section title="Refeitções" dishes={dishes} favorites={favorites}/>
+                <Section title="Refeições" dishes={dishes} favorites={favorites}/>
                 <Section title="Sobremesas" disserts={disserts} favorites={favorites}/>
                 <Section title="Bebidas" drinks={drinks} favorites={favorites}/>
                 
