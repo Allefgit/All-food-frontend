@@ -27,7 +27,7 @@ export function Order(){
             const getDishes = await api.get("/buying")      
             
             const newDish = getDishes.data.map(dish => {
-                const imgFile = `${api.defaults.baseURL}files/${dish.img}`
+                const imgFile = `${api.defaults.baseURL}/files/${dish.img}`
                 dish.img = imgFile
                 return dish
             })
